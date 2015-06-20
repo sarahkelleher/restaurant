@@ -1,1 +1,12 @@
-main.css
+body { padding-top: 70px; 
+   padding-bottom: 70px; 
+}
+
+.btn {
+padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+
+} 
+
+ 
