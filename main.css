@@ -82,14 +82,19 @@ padding: 18px 28px;
 
  #myCarousel {
 
-      width: 400px;
       margin: auto;
+  
   }
 
-  .carousel-inner img{
-       width:640px;
-       height:360px;
-     }
+  .carousel img {
+
+    vertical-align: center;
+    width: 100%;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+  }
+
+
 
 }
  
