@@ -60,9 +60,31 @@ padding: 18px 28px;
 }*/
 
 .form-group {
-	padding-bottom: 10%;
+	padding-bottom: 5%;
 }
 
+.socialLinks {
+	padding-bottom: 15%;
+}
+
+/*.list-inline center-block {
+	padding-bottom: 10%
+}*/
+
+#footer1 {
+	line-height: 8px;
+	text-align: center;
+}
+
+#footer2 {
+	
+	text-align: center;
+}
+
+#footer3 {
+	
+	text-align: center;
+}
 
 #footer {
     
@@ -71,7 +93,7 @@ padding: 18px 28px;
     bottom:0px;
     left:0px;
     right:0px;
-    height: 20%;
+    height: 15%;
     margin-bottom:0px;
     padding: 6px;
 }
