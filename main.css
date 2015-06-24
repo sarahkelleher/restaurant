@@ -1,6 +1,43 @@
-body { padding-top: 70px; 
-   padding-bottom: 70px; 
+/*style applied to the whole site*/
+body{
+	/*padding-top: 70px; 
+   padding-bottom: 70px;*/ 
+   padding-top: 10%; 
+   padding-bottom: 10%; 
+  margin:10%;
+  padding:0px;
+  color:red;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  }
+
+.pageHeader {
+	text-align: center;
+  /*width: 100%;
+  margin:10%;
+  margin: 0 auto;
+  position: fixed;*/
+  
+  }
+
+  .info	{
+	text-align: right;
+	color: blue;
 }
+
+  /*Nav buttons*/
+
+  .menu {
+  	text-align: center;
+  }
+
+
+/* .name	{
+	text-align: center;
+	margin-left: 10%;
+	color: blue;*/
+}
+
 
 .btn {
 padding: 18px 28px;
@@ -9,4 +46,31 @@ padding: 18px 28px;
 
 } 
 
+#intro {
+	padding-top: 2%;
+	margin-left: 10%;
+
+}
+
+#box1 {
+	margin-left: 1%
+	font-size:90%;
+}
+
+#footer {
+    
+    background-color:red;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height: 55px;
+    margin-bottom:0px;
+    padding: 6px;
+}
+
+.end {
+	text-align: center;
+}
+}
  

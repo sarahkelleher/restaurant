@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta name=“viewport” content="initial-scale=1.0"> 
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/mobile.css">
-	<link href='http://fonts.googleapis.com/css?family=Corben|Poppins' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/mobile.css"> -->
+	<link href='http://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -19,10 +19,35 @@
 <title>La Fenetre</title>
 </head>
 	<body>
+
+		<div class="pageHeader"> <!-- class="page-header"  -->
+  			<h1>La Fenetre </h1>
+  			<h3>french-inspired, northwest ingredient-focused fare</h3
+  			
+  			<p class="text-center">5519 ne 301th ave., portland, oregon 97000 </p>
+  			<!-- <p class="info">5519 ne 301th ave., portland, oregon 97000 </p> -->
+  			<hr></hr>
+		</div>
+
+		<nav class="Menu">
+						<ul class="menubar" id="menulink">
+					  		<button type="button" class="btn btn-default navbar-btn">Food</button>
+					  		<button type="button" class="btn btn-default navbar-btn">Drink</button>
+					  		<button type="button" class="btn btn-default navbar-btn">Chefs</button>
+					  		<button type="button" class="btn btn-default navbar-btn">Subscribe</button>
+						</ul>
+		</nav>
+
+
+
 		<header>
-			<div class="name">
-		        <h1><em>La Fenetre</em></h1>
-			</div>
+			<!-- <div class="name"> -->
+		        <!-- <h1><em>La Fenetre</em></h1> -->
+		        <!-- <h1>La Fenetre</h1> -->
+		        <!-- <p class="info">5519 ne 301th ave., portland, oregon 97000 </p> -->
+			<!-- </div>  -->
+
+		
 			<div class="container">
 			<br>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -75,28 +100,156 @@
 </div>
 		</header>
 			<div id="contentLayer"></div> <!-- layed over content so that it is unclickable while menu is shown -->
-		<article id="content">
-					<nav class="Menu">
+		<!-- <article id="content"> -->
+					<!-- <nav class="Menu">
 						<ul class="menubar" id="menulink">
-					  		<button type="button" class="btn btn-default navbar-btn">Menu</button>
+					  		<button type="button" class="btn btn-default navbar-btn">Food</button>
 					  		<button type="button" class="btn btn-default navbar-btn">Wine</button>
 					  		<button type="button" class="btn btn-default navbar-btn">Chefs</button>
 					  		<button type="button" class="btn btn-default navbar-btn">Contact Us</button>
 						</ul>
-			<section>
-				<p><em>
+					</nav> -->
+			<!-- <section>
+				<div id="intro"> -->
+				<!-- <p><em>
 				french-inspired, northwest ingredient-focused fare
-				</em></p>
-				<p><em>
+				</em></p> -->
+			<!-- 	<p>
 				At La Fenetre we embrace the french cuisine with a northwest flare. La fenetre means window and in our minds food can be that window opening you up to another world. Chef Jacques Lemerre and Melanie Cousteau create weekly menus that reflect their love for the seasonal flavors of Oregon as well as the french countryside. The freshest local produce,organic, pasture-raised meats from our favorite farms are thoughtfully paired with outstanding wines and delicate cocktails to please and delight the senses. A meal at La Fenetre is an intimate  experience.Our wine and cocktail lists take their cues from the kitchen and are tastefully selected by wine director Lara Lee Mosley. We look forward to serving you soon.
-				</em></p>
+				</p>
+				</div>
+			</section>
+			<section>
+				<div id="Food"
+				<p>Food menu goes here</p>
+				</div>
+				
+			</section>
+			
+			<section>
+				<div id="Drink"
+				<p>drink menu goes here</p>
+				</div>
+			</section>
+			<section>
+				<div id="Chefs"
+				<p>chef detail goes here</p>
+				</div>
+
 			</section>
 			<section></section>
-			<section></section>
-			<section></section>
-			<section></section>
-		</article>
+		</article> -->
+
+		<div class="row">
+<div class = "col-sm-4" id= "box1">
+		<h2>Food</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima atque itaque voluptas dolorem quos error cupiditate et perferendis cum eligendi facilis, molestiae repellat molestias quis impedit sapiente, illum esse consectetur.</p>
+  </div>
+
+  <div class = "col-sm-4" id= "box2">
+  <h2>Drinks</h2>
+      <p>La Fenetre’s wine list is thoughtfully curated by Lara Lee Mosley and is an expression of the wines we love, respect and believe best showcase the seasonal ingredients and flavors that come out of our kitchen. We are pleased to offer bottle sales of any wine you enjoy while dining with us. Just let our wine curator know you’d like to purchase a bottle to take home with you. We also offer wine-pairing services for your at-home dinner parties. Allow Lara Lee to recommend pairings that best complement your menu, French or otherwise.</p>
+  </div>
+
+  <div class = "col-sm-4" id= "box3">
+  <h2>Chefs</h2>
+      <p>At La Fenetre we embrace the french cuisine with a northwest flare. La fenetre means window and in our minds food can be that window opening you up to another world. Chef Jacques Lemerre and Melanie Cousteau create weekly menus that reflect their love for the seasonal flavors of Oregon as well as the french countryside. The freshest local produce,organic, pasture-raised meats from our favorite farms are thoughtfully paired with outstanding wines and delicate cocktails to please and delight the senses. A meal at La Fenetre is an intimate  experience.Our wine and cocktail lists take their cues from the kitchen and are tastefully selected by wine director Lara Lee Mosley. We look forward to serving you soon.</p>
+  </div>
+</div>
+
+		<!-- <form class="form-inline" role="form">
+		    <div class="form-group">
+		      <label for="email">Subscribe:</label>
+		      <input type="email" class="form-control" id="email" placeholder="Enter email">
+		    </div>
+    
+  		</form> -->
 	</body>
-<footer>
-</footer>
+
+
+<div class="container">
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+        <hr></hr>
+             <h3 class="">Don't miss a thing</h3>
+
+           <!--  <hr class="">
+             <h4 class="">
+        We love templates. We love Bootstrap.
+      </h4> -->
+      
+      <form class="form-inline" role="form">
+		    <div class="form-group">
+		      <label for="email">Subscribe:</label>
+		      <input type="email" class="form-control" id="email" placeholder="Enter email">
+		    </div>
+    
+  		</form>
+
+            <!-- <p class="">Get more free templates like this at the <a href="http://bootply.com" class="">Bootstrap Playground</a>,
+                Bootply.</p> -->
+            <hr class="">
+            <ul class="list-inline center-block">
+                <li><a href="http://facebook.com/bootply" class=""><img src="/assets/example/soc_fb.png" class=""></a>
+                </li>
+                <li><a href="http://twitter.com/bootply" class=""><img src="/assets/example/soc_tw.png" class=""></a>
+                </li>
+                <li><a href="http://google.com/+bootply" class=""><img src="/assets/example/soc_gplus.png" style="display: none !important;" class=""></a>
+                </li>
+                <li><a href="http://pinterest.com/in1" class=""><img src="/assets/example/soc_pin.png" class=""></a>
+                </li>
+            </ul>
+        </div>
+        <!--/col-->
+    </div>
+    <!--/container-->
+</div>
+<!--/wrap-->
+<!-- <div id="footer" class="">
+    <div class="container">
+        <p class="text-muted">This Bootstrap Example courtesy <a href="http://www.bootply.com" class="">Bootply.com</a>
+        </p>
+    </div>
+</div> -->
+<!-- <ul class="nav pull-right scroll-top" style="display: none !important;">
+    <li><a href="#" title="Scroll to top" style="display: none !important;" class=""><i class="glyphicon glyphicon-chevron-up"></i></a>
+    </li>
+</ul> -->
+
+
+
+<!-- <div id="footer">
+      <div class="end">
+        <p>testing this</p>
+      </div>
+</div> -->	
+
+<div id="footer">
+<div class = "col-sm-4" id= "footer1">
+<div style="border-right:medium #CC0000 solid; height:150px;" />
+  <h4>Hours</h4>
+      <p>tues - fri: 6pm - close</p>
+      <p>sat: 4pm - close</p>
+      <p>sun: 3pm - 8pm</p>
+  </div>
+</div>
+<div class = "col-sm-4" id= "footer2">
+
+  <h4>Location</h4>
+      <p>5519 ne 301th ave., portland, oregon 97000 </p>
+      
+  </div>
+  <div class = "col-sm-4" id= "footer3">
+  <div style="border-left:medium #CC0000 solid; height:150px;" />
+  <h4>Reservations</h4>
+      <p>La Fenetre Reservations</p>
+      <a href="http://www.opentable.com/home.aspx?restref=51496&amp;rtype=ism" title="Powered By OpenTable">
+		<img src="http://www.opentable.com/img/buttons/Otlogo.gif" id="OT_imglogo" alt="Restaurant Management Software">
+		</a>
+  </div>
+<!-- </div>
+      <div class="container">
+        <p class="muted credit">La Fenetre | 5519 ne 301th ave., portland, oregon 97000 </p>
+      </div>
+</div> -->
+
 </html>
