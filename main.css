@@ -28,7 +28,7 @@ body{
 
   /*Nav buttons*/
 
-  .menu {
+  .Menu {
   	text-align: center;
   }
 
@@ -54,19 +54,24 @@ padding: 18px 28px;
 
 }
 
-#box1 {
-	margin-left: 1%
-	font-size:90%;
+/*#box1 {
+	margin-left: 5%
+	
+}*/
+
+.form-group {
+	padding-bottom: 10%;
 }
+
 
 #footer {
     
-    background-color:red;
+    background-color: #E6E6E6;
     position:fixed;
     bottom:0px;
     left:0px;
     right:0px;
-    height: 55px;
+    height: 20%;
     margin-bottom:0px;
     padding: 6px;
 }
