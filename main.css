@@ -74,6 +74,18 @@ padding: 18px 28px;
 .end {
 	text-align: center;
 }
+
+ #myCarousel {
+
+      width: 400px;
+      margin: auto;
+  }
+
+  .carousel-inner img{
+       width:640px;
+       height:360px;
+     }
+
 }
  
 
