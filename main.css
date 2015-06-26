@@ -117,7 +117,17 @@ padding: 18px 28px;
     -ms-interpolation-mode: bicubic;
   }
 
+  #list1 {
+    list-style-type: none;
+  }
 
+  #list2 {
+    list-style-type: none;
+  }
+
+  #list3 {
+    list-style-type: none;
+  }
 
 }
  
